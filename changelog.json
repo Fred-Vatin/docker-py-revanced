@@ -1,1 +1,32 @@
-{}
+{
+    "inotia00/mMicroG": {
+        "ResourceName": "[inotia00/mMicroG](https://github.com/inotia00/mMicroG/releases/tag/v0.2.27.231613)",
+        "Version": "v0.2.27.231613",
+        "Changelog": "- bump gms version\r\n- update dependencies\r\n- upstream\r\n\r\n",
+        "PublishedOn": "2023-05-01T09:34:36Z"
+    },
+    "REAndroid/APKEditor": {
+        "ResourceName": "[REAndroid/APKEditor](https://github.com/REAndroid/APKEditor/releases/tag/V1.3.9)",
+        "Version": "V1.3.9",
+        "Changelog": "## What's Changed\r\n* Using ARSCLib-1.3.5\r\n* Version logging by @Kirlif in https://github.com/REAndroid/APKEditor/pull/108\r\n* Use DEFAULT compression level : https://github.com/REAndroid/ARSCLib/commit/dfc558d6bf76c20c84c82fc3ba404a95b1afe7c6\r\n* Fix: resource config flag qualifiers encoding : https://github.com/REAndroid/ARSCLib/commit/85c171884d467a9086527ee4ceb5bdac3a11caea\r\n* Fix: Clean `requiredSplitTypes` & `splitTypes` from manifest with resource id #114\r\n* Fix: Support compile/decompile apks to xml without resource table (e.g. split bundles) : https://github.com/REAndroid/ARSCLib/commit/4fa8e676d8a16307c006565ec9e79538e70b519c\r\n* Update internal framework version to API-35\r\n* Detect and warn incompatible bundle apks during merging : https://github.com/REAndroid/ARSCLib/commit/22a581663b28a9050eb2163e70137758fee58f89\r\n\r\n\r\n**Full Changelog**: https://github.com/REAndroid/APKEditor/compare/V1.3.8...V1.3.9",
+        "PublishedOn": "2024-08-02T19:26:33Z"
+    },
+    "inotia00/revanced-integrations": {
+        "ResourceName": "[inotia00/revanced-integrations](https://github.com/inotia00/revanced-integrations/releases/tag/v1.12.1)",
+        "Version": "v1.12.1",
+        "Changelog": "bump v1.12.1",
+        "PublishedOn": "2024-08-07T17:12:47Z"
+    },
+    "inotia00/revanced-patches": {
+        "ResourceName": "[inotia00/revanced-patches](https://github.com/inotia00/revanced-patches/releases/tag/v4.12.1)",
+        "Version": "v4.12.1",
+        "Changelog": "YouTube\r\n==\r\n- feat(YouTube): add `Hook download actions` patch https://github.com/inotia00/revanced-patches/pull/70\r\n- feat(YouTube/Client spoof): update hardcoded client version\r\n- feat(YouTube/Shorts components): move `Change Shorts repeat state` setting to `Experimental Flags` (close https://github.com/inotia00/ReVanced_Extended/issues/2231, https://github.com/inotia00/ReVanced_Extended/issues/2295)\r\n- fix(YouTube/Hide comments components): `Hide Comments section in home feed` setting not working in new component name\r\n- fix(YouTube/Hide feed components): sometimes `Hide carousel shelf` setting doesn't work\r\n- fix(YouTube/Hide layout components): no longer hiding `Settings` https://github.com/inotia00/ReVanced_Extended/issues/1424\r\n- fix(YouTube/Hook download actions): `Override playlist download button` setting does not work in `Download playlist` menu of flyout panel\r\n- fix(YouTube/Overlay buttons): `Always repeat` button doesn't work when the video is minimized https://github.com/inotia00/ReVanced_Extended/issues/2293\r\n- fix(YouTube/Return YouTube Dislike): dislikes not appearing due to new component name\r\n- fix(YouTube/SponsorBlock): improve create segment manual seek accuracy https://github.com/ReVanced/revanced-patches/pull/3491\r\n- fix(YouTube/Spoof client): change default value\r\n- fix(YouTube/Spoof client): fix background playback issue with livestream on iOS clients https://github.com/inotia00/ReVanced_Extended/issues/2290\r\n- fix(YouTube/Spoof client): partial fix for watch history issue of brand accounts on iOS clients https://github.com/inotia00/ReVanced_Extended/issues/2297\r\n- chore(YouTube): clarity of in-app strings https://github.com/inotia00/revanced-patches/pull/69\r\n- feat(YouTube/Translations for YouTube): update translation\r\n\r\n\r\nYouTube Music\r\n==\r\n- feat(YouTube Music): add support versions `7.12.52` ~ `7.13.52`\r\n- feat(YouTube Music): add `Change share sheet` patch https://github.com/inotia00/ReVanced_Extended/issues/1983\r\n- feat(YouTube Music/Player components): add settings `Disable miniplayer gesture`, `Disable player gesture` https://github.com/inotia00/ReVanced_Extended/issues/2097\r\n- fix(YouTube Music/Hide account components): no longer hiding `Settings` https://github.com/inotia00/ReVanced_Extended/issues/1424\r\n- feat(YouTube Music/Translations for YouTube Music): update translation\r\n\r\n\r\nAnnouncement\r\n==\r\n- Reddit 2024.18.0+ can only be patched via [CLI](https://github.com/inotia00/revanced-documentation/blob/main/docs/latest-reddit-patch-info.md) or rvx-builder.\r\n- Compatible ReVanced Manager: [RVX Manager v1.21.1 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.21.1).\r\n\r\n\r\nContribute to translation\r\n==\r\n- [YouTube](https://crowdin.com/project/revancedextended)\r\n- [YT Music](https://crowdin.com/project/revancedmusicextended)",
+        "PublishedOn": "2024-08-07T17:13:11Z"
+    },
+    "inotia00/revanced-cli": {
+        "ResourceName": "[inotia00/revanced-cli](https://github.com/inotia00/revanced-cli/releases/tag/v4.6.1)",
+        "Version": "v4.6.1",
+        "Changelog": "- build: update dependencies\r\n- feat: rollback the default values of keystore alias and password to CLI v3.0 (compatible with old keystore)\r\n- rollback: move ReVanced Library subproject to another repository\r\n\r\n\u203b support `--unsigned` and `--rip-lib` commands #[j-hc/revanced-cli](https://github.com/j-hc/revanced-cli)",
+        "PublishedOn": "2024-05-08T17:59:05Z"
+    }
+}
