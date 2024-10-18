@@ -1,1 +1,54 @@
-{}
+{
+    "youtube": {
+        "app_version": "19-41-39-1549008320",
+        "integrations_version": "v1.14.2",
+        "patches_version": "v4.14.2",
+        "cli_version": "v4.6.2",
+        "patches_json_version": "v4.14.2",
+        "ms_epoch_since_patched": 1729265481848,
+        "date_patched": "2024-10-18 15:31:21.848390+05:30",
+        "app_dump": {
+            "app_name": "youtube",
+            "app_version": "19-41-39-1549008320",
+            "experiment": true,
+            "cli_dl": "https://github.com/inotia00/revanced-cli",
+            "patches_dl": "https://github.com/inotia00/revanced-patches",
+            "integrations_dl": "https://github.com/inotia00/revanced-integrations",
+            "patches_json_dl": "https://github.com/inotia00/revanced-patches",
+            "exclude_request": [
+                "Theme",
+                "Enable-debug-logging",
+                "Alternative-thumbnails"
+            ],
+            "include_request": [],
+            "resource": {
+                "cli": {
+                    "file_name": "c5b35912d529d760f3eb67fdc4b1d8d2108bfe932daf02b305c498e74fff0291.jar",
+                    "version": "v4.6.2"
+                },
+                "integrations": {
+                    "file_name": "70fbea173925bb81278f304bc989c7b2c633c24f1396c7d4dcc845a5e41468aa.apk",
+                    "version": "v1.14.2"
+                },
+                "patches": {
+                    "file_name": "5336c3977768edb87b68a388cc4a94f53d8075f2a18fbe803ec92ddecff78acd.jar",
+                    "version": "v4.14.2"
+                },
+                "patches_json": {
+                    "file_name": "4a1c517cfdeaf305ce5a57aed569c5f8953c9b5e55c203dd2aff5952ee8e70d9.json",
+                    "version": "v4.14.2"
+                }
+            },
+            "no_of_patches": 61,
+            "keystore_name": "revanced.keystore",
+            "archs_to_build": [],
+            "options_file": "options.json",
+            "download_file_name": "youtube.apk",
+            "download_dl": "https://www.apkmirror.com/wp-content/themes/APKMirror/download.php?id=7389426&key=ebf4634a9a438e8c7692917c199cce7dddbb5690&forcebaseapk=true",
+            "download_source": "https://www.apkmirror.com/apk/google-inc/youtube/",
+            "package_name": "com.google.android.youtube",
+            "old_key": true,
+            "space_formatted": true
+        }
+    }
+}
