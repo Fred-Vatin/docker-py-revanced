@@ -1,8 +1,8 @@
 name: Check for new Revanced apps
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
+#  schedule:
+ #   - cron: "0 0 * * *"
   workflow_dispatch:
     inputs:
       CREATE_ISSUE:
