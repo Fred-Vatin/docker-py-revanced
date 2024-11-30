@@ -16,8 +16,8 @@ on:
         required: false
         type: boolean
         default: true
-  schedule:
-    - cron: '0 * * * *'
+ # schedule:
+  #  - cron: '0 * * * *'
 jobs:
   release-check:
     permissions: write-all
